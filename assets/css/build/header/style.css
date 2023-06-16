@@ -1,0 +1,190 @@
+.bottom_menu {
+    padding-bottom: 20px;
+}
+#primary-menu {
+    list-style: none;
+    gap: 20px;
+    text-transform: uppercase;
+    position: relative;
+    height: 100%;
+}
+#mobile-site-navigation {
+    display: none;
+}
+ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    list-style: none;
+    padding-left: 0;
+    top: 50px;
+    padding: 14px;
+    text-align: center;
+}
+ul.sub-menu li {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    padding: 24px 14px;
+}
+ul.sub-menu li:hover {
+    background: #ECF4F9;
+    border-radius: 9px;
+}
+i.fa.fa-caret-down {
+    margin-left: 10px;
+}
+img.mobile_nav_icon {
+    display: none;
+}
+img.desktop_nav_icon {
+    max-width: 250px;
+}
+#top-menu {
+    list-style: none;
+    gap: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+#form-block {
+    background: #d2d5d7;
+    padding: 20px 0;
+}
+.form-block__content.item_1_2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.gform_wrapper .gform_body #gform_fields_1 li.gfield {
+    padding-right: 0px;
+}
+.gform_wrapper .gform_body #gform_fields_1 input, .gform_wrapper .gform_body #gform_fields_1 select {
+    color: #C2D1D9;
+    border: solid 1px #C2D1D9;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 8px;
+}
+.gform_wrapper .gform_body #gform_fields_1 input::placeholder {
+    color: #C2D1D9;
+}
+.gform_wrapper .gform_body #gform_fields_1 input:focus, .gform_wrapper .gform_body #gform_fields_1 select:focus {
+    outline: none;
+}
+.gform_wrapper #gform_fields_1 li.hidden_label input {
+    margin-top: 0;
+}
+.get_quote_form {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10em;
+}
+.form_heading {
+    color: #505D68;
+    font-size: 28px;
+    line-height: 38px;
+}
+input#gform_submit_button_1 {
+    background: #424B5A;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.site-footer__top-row {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.site-footer__logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer_social {
+    margin-top: 20px;
+}
+.footer_social i {
+    font-size: 20px;
+    margin-right: 14px;
+    color: #424B5A;
+}
+.site-footer__menu.item_1_4 ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+.site-footer__menu_container {
+    display: flex;
+    justify-content: flex-end;
+}
+.site-footer__menu.item_1_4 {
+    border-right: solid 1px #C2D1D9;
+    padding-left: 50px;
+}
+.site-footer__menu.item_1_4:last-child {
+    border: none;
+}
+.menu_label {
+    color: #505D68;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.site-footer__menu.item_1_4 ul li a {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #A1AEB7;
+}
+.site-footer__menu.item_1_4 {
+    min-width: 160px;
+}
+.footer_bottom {
+    border-top: solid 1px #C2D1D9;
+    padding: 8px 0;
+    font-size: 14px;
+    color: #505D68;
+    line-height: 1.5;
+}
+@media screen and (max-width: 768px) {
+    #mobile-site-navigation #primary-menu {
+        flex-direction: column;
+        padding: 40px 20px;
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        z-index: 99;
+        top: 0px;
+        align-items: flex-start;
+        background: #f7f8fa;
+    }
+    #site-header #site-navigation {
+        display: none;
+    }
+    #site-header .mobile_nav_icon {
+        display: block;
+        position: absolute;
+        left: 30px;
+    }
+    img.desktop_nav_icon {
+        max-width: 200px;
+    }
+    #site-header .container {
+        justify-content: center;
+    }
+    .site-footer__top-row, .site-footer__menu_container {
+        display: block;
+    }
+    .site-footer__menu.item_1_4 {
+        padding-left: 0px;
+        border: none;
+    }
+}

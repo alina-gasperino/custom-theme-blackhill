@@ -1,0 +1,21 @@
+.slide_item {
+    padding: 10em 0;
+}
+.half {
+    width: 50%;
+}
+.slide_item p {
+    color: #2A303F;
+    margin-bottom: 40px;
+}
+a.primary_btn {
+    color: #fff;
+    padding: 10px 30px;
+    background: #01674C;
+    line-height: 1.5;
+}
+a.secondary_btn {
+    color: #2A303F;
+    line-height: 1.5;
+    padding: 10px 30px;
+}
